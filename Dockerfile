@@ -1,4 +1,4 @@
-FROM grafana/grafana
+FROM grafana/grafana:latest
 MAINTAINER Heinz N. Gies <heinz@project-fifo.net>
 
 RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
